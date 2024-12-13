@@ -4,7 +4,7 @@ This repository contains the implementation of a pest detection system using YOL
 
 ## Overview
 
-This research evaluates four YOLO variants—YOLOv8, YOLOv9, YOLOv10, and YOLOv11—on their performance in detecting agricultural pests. Key metrics such as precision, recall, F1-score, accuracy, and mean Average Precision (mAP@0.5) were assessed using the NBAIR dataset, containing 40 pest species. The system is designed for deployment on resource-constrained environments like Jetson devices.
+This repo evaluates four YOLO variants—YOLOv8, YOLOv9, YOLOv10, and YOLOv11—on their performance in detecting agricultural pests. Key metrics such as precision, recall, F1-score, accuracy, and mean Average Precision (mAP@0.5) were assessed using the NBAIR dataset, containing 40 pest species. The system is designed for deployment on resource-constrained environments like Jetson devices.
 
 ## Key Results
 
