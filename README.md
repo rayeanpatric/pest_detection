@@ -20,7 +20,7 @@ This repo evaluates four YOLO variants—YOLOv8, YOLOv9, YOLOv10, and YOLOv11—
 
 ## Dataset
 
-The **National Bureau of Agricultural Insect Resources (NBAIR)** dataset was used, which includes 3,981 images representing five common pest species:
+The **National Bureau of Agricultural Insect Resources (NBAIR)** dataset was used, which includes [3,981 images](Dataset/) representing five common pest species:
 
 | S. No | Insect Name          | No. of Samples | No. of Test Samples |
 |-------|----------------------|----------------|----------------------|
@@ -51,6 +51,9 @@ Data augmentation techniques were applied to balance the dataset and improve rob
 - Features: C3K2 block, SPFF module, C2PSA block.
 - Strengths: High precision (0.932), multi-scale prediction.
 
+ All the model files are at the [Model Folder](Models/) in this repo.
+
+
 ## Data Augmentation Techniques
 
 - **Grayscale Conversion**: Focused on texture and structure.
@@ -61,6 +64,7 @@ Data augmentation techniques were applied to balance the dataset and improve rob
 
 ## Results Summary
 
+All the result metrics are and graphs are at [Results Folder](Results/)
 | Metrics         | YOLOv8 | YOLOv9 | YOLOv10 | YOLOv11 |
 |-----------------|--------|--------|---------|---------|
 | Precision       | 0.687  | 0.834  | 0.759   | 0.932   |
@@ -100,7 +104,7 @@ The models were optimized using TensorRT for deployment on NVIDIA Jetson devices
 
 ## License
 
-This project is open-source and released under the (MIT License)[https://github.com/rayeanpatric/pest_detection/blob/master/LICENSE].
+This project is open-source and released under the [MIT License](LICENSE).
 
 ---
 
