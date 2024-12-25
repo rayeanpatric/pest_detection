@@ -1,0 +1,12 @@
+train: /home/dharun/Desktop/pest_detection/Pest_dectection/Custom Dataset After Augmentation/train/images
+val: /home/dharun/Desktop/pest_detection/Pest_dectection/Custom Dataset After Augmentation/valid/images
+test: /home/dharun/Desktop/pest_detection/Pest_dectection/Custom Dataset After Augmentation/test/images
+
+nc: 5
+
+names: 
+  0: Asian-Lady-beetle
+  1: Ladybug
+  2: Mealy-bug
+  3: Pyrilla-perpusilla
+  4: Stink bug
