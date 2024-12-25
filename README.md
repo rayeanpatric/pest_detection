@@ -69,6 +69,14 @@ Data augmentation techniques were applied to balance the dataset and improve rob
 | mAP@0.5         | 0.822  | 0.959  | 0.951   | 0.952   |
 | Accuracy        | 77.5%  | 93%    | 85%     | 89.1%   |
 
+#Configuration
+Each model was trained with the following hyperparameters:
+
+- Batch Size: 16
+- Epochs: 50
+- Learning Rate: 0.001
+- Input Size: 640x640 pixels
+
 ## System Architecture
 
 The models were optimized using TensorRT for deployment on NVIDIA Jetson devices, ensuring real-time pest detection with minimal computational overhead.
