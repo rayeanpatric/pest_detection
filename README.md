@@ -94,13 +94,13 @@ The models were optimized using TensorRT for deployment on NVIDIA Jetson devices
 - Rayean Patric
 - Dharun Raagav
 
-**Affiliation:** SRM Institute of Science and Technology, Tiruchirappalli, Tamil Nadu, India.
+**Affiliation:** SRM Institute of Science and Technology Tiruchirappalli, Tamil Nadu, India.
 
 ---
 
 ## License
 
-This project is open-source and released under the MIT License.
+This project is open-source and released under the (MIT License)[https://github.com/rayeanpatric/pest_detection/blob/master/LICENSE].
 
 ---
 
